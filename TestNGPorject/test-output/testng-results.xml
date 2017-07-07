@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28942" started-at="2017-07-06T18:26:06Z" finished-at="2017-07-06T18:26:35Z">
+  <suite name="TestSuite" duration-ms="40284" started-at="2017-07-07T15:05:58Z" finished-at="2017-07-07T15:06:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28942" started-at="2017-07-06T18:26:06Z" finished-at="2017-07-06T18:26:35Z">
-      <class name="testcase.KeyboardActions">
-        <test-method status="PASS" signature="getbrowser()[pri:0, instance:testcase.KeyboardActions@16c0663d]" name="getbrowser" is-config="true" duration-ms="19977" started-at="2017-07-06T23:56:06Z" finished-at="2017-07-06T23:56:26Z">
+    <test name="ChromeTest" duration-ms="19964" started-at="2017-07-07T15:05:58Z" finished-at="2017-07-07T15:06:18Z">
+      <class name="testcase.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testcase.CrossBrowserScript@49993335]" name="setup" is-config="true" duration-ms="17039" started-at="2017-07-07T20:35:59Z" finished-at="2017-07-07T20:36:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getbrowser -->
-        <test-method status="PASS" signature="gettheelement()[pri:0, instance:testcase.KeyboardActions@16c0663d]" name="gettheelement" duration-ms="5700" started-at="2017-07-06T23:56:26Z" finished-at="2017-07-06T23:56:32Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:testcase.CrossBrowserScript@49993335]" name="testParameterWithXML" duration-ms="2864" started-at="2017-07-07T20:36:16Z" finished-at="2017-07-07T20:36:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gettheelement -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testcase.KeyboardActions@16c0663d]" name="closebrowser" is-config="true" duration-ms="3204" started-at="2017-07-06T23:56:32Z" finished-at="2017-07-06T23:56:35Z">
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- testcase.CrossBrowserScript -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="40284" started-at="2017-07-07T15:05:58Z" finished-at="2017-07-07T15:06:39Z">
+      <class name="testcase.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testcase.CrossBrowserScript@4fe3c938]" name="setup" is-config="true" duration-ms="35578" started-at="2017-07-07T20:35:59Z" finished-at="2017-07-07T20:36:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- testcase.KeyboardActions -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:testcase.CrossBrowserScript@4fe3c938]" name="testParameterWithXML" duration-ms="4686" started-at="2017-07-07T20:36:34Z" finished-at="2017-07-07T20:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- testcase.CrossBrowserScript -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
 </testng-results>
